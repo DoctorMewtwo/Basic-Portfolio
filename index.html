@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <script src="main.js"></script>
 </head>
 
-<header>
-        <h1>Thomas Christian</h1>
-        
-        <a href = "index.html"> About</a>  
-        <a href = "portfolio.html"> Portfolio</a> 
-        <a href = "contact.html"> Contact</a> 
-        
+<header class="header">
+    <div class="size">
+        <h1 class="HeaderTitle">Thomas Christian</h1>
+    
+        <div class="Box">
+        <a href = "index.html" class="HeaderLinkRight"> About</a>  
+        <a href = "portfolio.html" class="HeaderLinkLeft" > Portfolio</a> 
+        <a href = "contact.html" class="HeaderLinkLeft"> Contact</a>
+        </div> 
+    </div>
 </header>
 <body>
-    <div>
+<div class="background">
+    <div class="BodyHeading">
     <h1> About Me</h1>
     </div>
 <div>
-    <img source = "http://via.placeholder.com/350x150" alt = "Thomas Christian">
+    <img src = "http://via.placeholder.com/200x200" alt = "Thomas Christian">
+    
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac nunc dui.
          Duis aliquam, arcu ac ultrices fringilla, quam nisl congue nulla, a maximus nibh magna pretium felis. 
          Vestibulum nec dictum mi. Nunc vel egestas orci. Vestibulum nisi est, gravida ornare erat fringilla, vestibulum 
@@ -40,10 +45,11 @@
     </p>
 
 </div>
+</div>
     
 
 </body>
 <footer>
-    <p>Copytight tm</p>
+    <p class="footer">Copyright &copy; </p>
 </footer>
 </html>

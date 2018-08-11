@@ -162,6 +162,10 @@ p
     width: 90%;
     height: 200px;
     margin: 5px;
+    resize: vertical;
+    overflow: auto;
+
+
 }
 
 form
